@@ -1,0 +1,262 @@
+body {
+    background-image: url('/src/Imagenes/fondoGF.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+img {
+    width: 700px;
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+@media (min-width: 768px) {
+    .header__texto {
+        margin-top: 15rem;
+    }
+}
+
+.contenedor {
+    width: min(90%, 120rem);
+    margin: 0 auto;
+    max-width: 800px; 
+    width: 100%; 
+}
+
+.barra {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.footer {
+    width: 100%;
+    background-color: blueviolet;
+    margin-bottom: 0;
+    padding-bottom: 3rem;
+}
+
+.contenido {
+    width: auto;
+    background: rgba(0,255,255,0.5);
+    transform: translateY(900%);
+    color: white;
+    margin: 20%;
+}
+
+ul {
+    list-style: none;
+}
+
+@media (min-width: 768px) {
+    .contenido-principal {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.entrada {
+    border-bottom: 1px solid white;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.entrada:last-of-type {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+
+.no-margin {
+    margin: 0;
+}
+
+.titulo {
+    color: white;
+}
+
+table.items {
+    margin-top: 4rem;
+    width: 100%;
+    border-spacing: 0;
+}
+
+table.items thead {
+    background-color: #9d00ff;
+}
+
+table.items th {
+    color: white;
+    padding: 2rem;
+}
+
+table.items td {
+    background-color: rgba(0, 255, 238, 0.608);
+    color: black;
+    padding: 2rem;
+}
+
+.boton-rojo-block {
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    text-align: center;
+    margin-top: 5rem / 2;
+    display: block;
+    border: none;
+    width: 100%;
+}
+
+.boton-rojo-block:hover {
+    background-color: darkred;
+    cursor: pointer;
+}
+
+.boton-aqua-block {
+    background-color: fuchsia;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    text-align: center;
+    margin-top: 5rem / 2;
+    display: block;
+    border: none;
+    width: 100%;
+}
+
+.boton-aqua-block:hover {
+    background-color: darkorchid;
+    cursor: pointer;
+}
+
+.boton-verde {
+    background-color: #71B100; 
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    text-align: center;
+    border: none;
+    display: block;
+    margin: 2rem auto;
+}
+
+.boton-verde:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
+
+.table-responsive {
+    overflow-x: auto;
+  }
+  
+  .items {
+    width: 100%;
+  }
+  
+  .acciones {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .acciones a {
+    display: block;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .items th,
+    .items td {
+      font-size: 14px;
+      padding: 8px;
+    }
+  }
+  
+  .contenedor-item {
+    padding: 20px;
+  }
+
+.crear-usuario-link {
+    color: rgb(136, 0, 255); 
+    display: block; 
+    margin-top: 10px; 
+    margin-bottom: 10px;
+  }
+
+.login-form {
+    text-align: center;
+    background-color: rgba(0, 238, 255, 0.689);
+    padding: 70px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .boton-fucsia-block {
+    background-color: fuchsia; 
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem 1rem; 
+    line-height: 1; 
+    border: none;
+    margin-bottom: 10px;
+    margin: 2rem auto;
+    width: auto;
+}
+  
+  .boton-fucsia-block:hover {
+    background-color: darkorchid;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .login-form {
+      padding: 10px;
+    }
+  
+    input[type="text"],
+    input[type="password"] {
+      font-size: 14px;
+    }
+  
+    button[type="submit"] {
+      font-size: 14px;
+    }
+  } 
+  
+  .cerrar-sesion {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .regresar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .mensaje p {
+    color: #FFFFFF; 
+    font-size: 35px;
+  }
+
+  .mensaje {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+  }
