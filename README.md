@@ -1,5 +1,6 @@
 <h1 align="center">Proyecto 1 WEB Nancy Mazariegos</h1>
 <h3 align="center">Blog de Gravity Falls</h3>
+<h4>Este proyecto consiste en la elaboración de un blog implementando las herramientas vistas durante el curso. Este blog es capaz de realizar un CRUD con los personajes de Gravity Falls, el blog también cuenta con un login de usarios donde se podrá crear un usuario cada que lo desee y podrá ingresar al blog con su respectivo usario y contraseña.</h4>
 
 - PASO 1 ➡️ Descargará todo lo necesario para poder ejecutar el proyecto **npm install**
 
