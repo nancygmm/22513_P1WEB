@@ -17,7 +17,7 @@ function PaginaCrear() {
         nombre: nombre,
         tipo: tipo,
       };
-      const response = await fetch(`http://localhost:3000/posts`, {
+      const response = await fetch(`http://localhost:22513/posts`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(datos),

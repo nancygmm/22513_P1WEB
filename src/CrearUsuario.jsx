@@ -29,7 +29,7 @@ function CrearUsuario() {
         username: usuario,
         password: contraseña,
       };
-      await fetch(`http://localhost:3000/usuario`, {
+      await fetch(`http://localhost:22513/usuario`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(datos),
