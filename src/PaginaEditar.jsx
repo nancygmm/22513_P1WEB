@@ -14,7 +14,7 @@ function PaginaEditar() {
  
   const obtenerPostParaEditar = async () => {
     try {
-      const response = await fetch(`http://localhost:22513/posts/${postId}`, {method:'GET', headers: {'Content-Type':'application/json'}});
+      const response = await fetch(`http://22513.arpanetos.lol/posts/${postId}`, {method:'GET', headers: {'Content-Type':'application/json'}});
       if (response.ok) {
         const data  = await response.json()
         setId(data[0].id)

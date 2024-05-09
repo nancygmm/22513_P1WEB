@@ -26,7 +26,7 @@ function PaginaPrincipal() {
 
   const eliminarPost = async (id) => {
     try {
-      await fetch(`http://localhost:22513/posts/${id}`, {
+      await fetch(`http://22513.arpanetos.lol/posts/${id}`, {
         method: "DELETE"
       });
       
